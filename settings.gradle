@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Enterprise directory mine after Surgaya"

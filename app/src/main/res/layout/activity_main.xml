@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fonshahtat"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/intro"
+        android:textColor="#ffffff33"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/roottextviev"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/word_intro"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white" >
+    </TextView>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="8">
+    <LinearLayout
+        android:id="@+id/infot_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+</ScrollView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <ImageButton
+        android:id="@+id/speech_btn"
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@drawable/buttonmic"
+        android:scaleType="center"
+        android:tint="#FFFFFF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+</LinearLayout>
